@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | ColorCraft</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="background-shape shape1"></div>
+<div class="background-shape shape2"></div>
+
+<div class="login-wrapper">
+
+    <div class="left-panel">
+        <a href="index.html" class="logo">
+            Color<span>Craft.</span>
+        </a>
+
+        <div class="left-content">
+            <div class="illustration">
+                <div class="floating-card card-one">✨</div>
+                <div class="main-emoji">🚀</div>
+                <div class="floating-card card-two">💡</div>
+            </div>
+
+            <h1>Welcome to a World of Creativity!</h1>
+            <p>
+                Unlock your potential, explore new ideas
+                and make your digital journey amazing.
+            </p>
+
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <p class="copyright">© 2026 ColorCraft. All rights reserved.</p>
+    </div>
+
+    <div class="right-panel">
+
+        <a href="index.html" class="back-home">← Back to Home</a>
+
+        <div class="form-content">
+
+            <div class="welcome-icon">👋</div>
+
+            <h2>Welcome Back!</h2>
+            <p class="subtitle">Login to continue your journey.</p>
+
+            <form id="loginForm">
+
+                <label>Email Address</label>
+                <div class="input-box">
+                    <span>✉️</span>
+                    <input type="email" id="email"
+                    placeholder="Enter your email" required>
+                </div>
+
+                <label>Password</label>
+                <div class="input-box">
+                    <span>🔒</span>
+                    <input type="password" id="password"
+                    placeholder="Enter your password" required>
+                    <button type="button" id="togglePassword">Show</button>
+                </div>
+
+                <div class="options">
+                    <label class="remember">
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#" id="forgotPassword">
+                        Forgot Password?
+                    </a>
+                </div>
+
+                <button type="submit" class="login-btn">
+                    Sign In <span>→</span>
+                </button>
+
+                <p id="message"></p>
+
+            </form>
+
+            <div class="signup">
+                Don't have an account?
+                <a href="signup.html">Create Account</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
